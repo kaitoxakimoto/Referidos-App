@@ -1,16 +1,31 @@
-# flutter_application_1
-
-A new Flutter project.
+# Referidos APP
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Referidos APP está construida en Flutter, por lo que su instalación depende de que el computador donde se ejecute tenga instalado el último SDK
 
-A few resources to get you started if this is your first Flutter project:
+## Como Instalar
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Paso 1:**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Descargue el proyecto mediante git
+
+```
+https://github.com/kaitoxakimoto/Referidos-App.git
+```
+
+**Paso 2:**
+
+Abra la raíz del proyecto y ejecute get para instalar las librerias
+
+```
+flutter pub get 
+```
+
+**Step 3:**
+
+Inicie el proceso de Compilación
+
+```
+flutter build apk --split-per-abi
+```
